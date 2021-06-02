@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.sec {
+  display: flex;
+  min-height: auto;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  height: 250px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: DarkBlue;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .col-1 {
+    width: 100%;
+  }
+  .col-2 {
+    width: 50%;
+  }
+  .col-3 {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-1 {
+    width: 50%;
+  }
+  .col-2 {
+    width: 25%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+}
+.header {
+  width: 100%;
+  min-height: 10%;
+  background-color: black;
+  color: white;
+}
+.footer {
+  width: 100%;
+  min-height: 10%;
+  background-color: gold;
+}
+.col-1 {
+  background-color: orange;
+}
+.col-2 {
+  background-color: lightgreen;
+}
+.col-3 {
+  background-color: lightblue;
+}
+.col-4 {
+  background-color: lightslategray;
+}
+
+
+
+
+
+
+
+
+
+
+#content {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row; /* row is the default; try column */
+  flex-wrap: wrap;
+  justify-content: center; /* For horizontal alignmnettry flex-start  flex-end center space-between */
+  align-items: flex-end; /* For vertical alignment */
+  height: 250px;
+}
+
+.sec {
+  width: 100%;
+  min-height: 70%;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid black;
+}
+#img {
+  width: 100px;
+  height: 100px;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .col-1 {
+    width: 100%;
+  }
+  .col-2 {
+    width: 50%;
+  }
+  .col-3 {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-1 {
+    width: 50%;
+  }
+  .col-2 {
+    width: 25%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+}
+
+.col-1 {
+  background-color: orange;
+}
+.col-2 {
+  background-color: lightgreen;
+}
+.col-3 {
+  background-color: lightblue;
+}
+.col-4 {
+  background-color: lightslategray;
+}
+
+.abc {
+  border: 1px solid red;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+  width: 50%;
+  background-color: khaki;
+}
